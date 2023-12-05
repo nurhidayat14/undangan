@@ -296,7 +296,7 @@ const audio = (() => {
 const pagination = (() => {
 
     const perPage = 10;
-    let pageNow = 1;
+    let pageNow = 0;
     let resultData = 0;
 
     const page = document.getElementById('page');
